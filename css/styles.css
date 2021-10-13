@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+.resize {
+  width: 100px;
+  height: auto;
+}
+
+.logo {
+  display: inline-block;
+}
+.nav {
+  display: inline-block;
+}
+.nav li {
+  border-radius: 0.5rem;
+  background-color: white;
+  padding: 0.2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  font-size: 2rem;
+  display: inline-table;
+}
+.header {
+  background-color: steelblue;
+}
+.content {
+  display: flex;
+}
+aside div {
+  background-color: grey;
+  height: 100px;
+  width: 250px;
+  margin: 10px;
+}
+.layout {
+  background-color: coral;
+}
+.text {
+  background-color: blue;
+}
+body {
+  background-color: cornflowerblue;
+}
